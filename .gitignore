@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project: never commit patient data, credentials or licensed terminology
+config/study.toml
+results/
+data/*
+!data/synthetic/
+*.xlsx
+*.xlsb
+.staging/

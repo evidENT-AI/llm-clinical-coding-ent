@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this software."
+title: "llm-clinical-coding-ent"
+version: 1.0.0
+license: Apache-2.0
+repository-code: "https://github.com/evidENT-AI/llm-clinical-coding-ent"
+authors:
+  - family-names: Farache Trajano
+    given-names: Luiza
+  - family-names: D'Souza
+    given-names: Ayman
+  - family-names: Dimitrov
+    given-names: Lilia
+  - name: "Health Informatics Collaborative Hearing Health Consortium"
+  - family-names: Barrett
+    given-names: Liam
+  - family-names: Mehta
+    given-names: Nishchay
+preferred-citation:
+  type: article
+  title: "Large Language Models Reach Human-Level Agreement in Coding Otolaryngology Clinical Notes"
+  authors:
+    - family-names: Farache Trajano
+      given-names: Luiza
+    - family-names: D'Souza
+      given-names: Ayman
+    - family-names: Dimitrov
+      given-names: Lilia
+    - name: "Health Informatics Collaborative Hearing Health Consortium"
+    - family-names: Barrett
+      given-names: Liam
+    - family-names: Mehta
+      given-names: Nishchay

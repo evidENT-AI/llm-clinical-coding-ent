@@ -1,0 +1,48 @@
+{
+  "labels": [
+    {
+      "text": "cholesteatoma",
+      "context": "a cholesteatoma of the right middle ear, confirmed on preoperative CT of the temporal bones.",
+      "qualifier": "Diagnoses",
+      "laterality": "right",
+      "presence": "confirmed",
+      "primary_secondary": "primary",
+      "experiencer": "Patient",
+      "treatment_stage": "NA",
+      "snomed_ct": "63775005"
+    },
+    {
+      "text": "chronic suppurative otitis media",
+      "context": "This 58-year-old gentleman has a longstanding right-sided chronic suppurative otitis media.",
+      "qualifier": "Diagnoses",
+      "laterality": "right",
+      "presence": "confirmed",
+      "primary_secondary": "secondary",
+      "experiencer": "Patient",
+      "treatment_stage": "NA",
+      "snomed_ct": "45996004"
+    },
+    {
+      "text": "modified radical mastoidectomy",
+      "context": "Right modified radical mastoidectomy and tympanoplasty under general anaesthesia.",
+      "qualifier": "Procedures",
+      "laterality": "right",
+      "presence": "confirmed",
+      "primary_secondary": "primary",
+      "experiencer": "Patient",
+      "treatment_stage": "current",
+      "snomed_ct": "236671009"
+    },
+    {
+      "text": "tympanoplasty",
+      "context": "Right modified radical mastoidectomy and tympanoplasty under general anaesthesia.",
+      "qualifier": "Procedures",
+      "laterality": "right",
+      "presence": "confirmed",
+      "primary_secondary": "secondary",
+      "experiencer": "Patient",
+      "treatment_stage": "current",
+      "snomed_ct": "172742001"
+    }
+  ]
+}

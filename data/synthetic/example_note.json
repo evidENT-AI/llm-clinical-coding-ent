@@ -1,0 +1,14 @@
+{
+  "episode_id": "SYN_EXAMPLE_ent",
+  "synthetic": true,
+  "note": "Synthetic in-context example. Not a real patient.",
+  "n_notes": 1,
+  "notes": [
+    {
+      "note_date": "2024-01-01",
+      "note_class": "Letter",
+      "is_anchor": true,
+      "text": "ENT operation note. Indication for surgery: This 58-year-old gentleman has a longstanding right-sided chronic suppurative otitis media and a cholesteatoma of the right middle ear, confirmed on preoperative CT of the temporal bones. Procedure performed: Right modified radical mastoidectomy and tympanoplasty under general anaesthesia. Operative findings: Extensive attic cholesteatoma with erosion of the long process of the incus. Post-operative diagnosis: Cholesteatoma of the right middle ear with associated chronic otitis media."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+# Inputs for the analyses. Copy to config/study.toml (ignored by git) and point
+# each path at the governed data. These files contain patient information and
+# must stay within the approved environment.
+
+output_dir = "results"
+
+[clinicians.reference]
+path = "/path/to/reference_clinician_annotations.xlsx"
+sheet = "Data collection"
+
+[clinicians.clinician_2]
+path = "/path/to/clinician_2_annotations.xlsx"
+sheet = "Data collection"
+
+[clinicians.clinician_3]
+path = "/path/to/clinician_3_annotations.xlsx"
+sheet = "Sheet1"
+
+[coder]
+path = "/path/to/clinical_coding_extract.xlsb"
+sheet = "Data"
+
+[pilot]
+coder_csv = "/path/to/pilot_clinical_coding.csv"
+reference_csv = "/path/to/pilot_reference_annotations.csv"
+
+# One table per model: the Stage 2 run directory and the clinician's evaluation.
+[models."Llama 3.1 8B"]
+run = "/path/to/runs/<run id>/llama-3.1-8b-instruct"
+evaluation = "/path/to/llama31_evaluation.xlsx"
+
+[models."GPT-4o"]
+run = "/path/to/runs/<run id>/gpt-4o-2024-11-20"
+evaluation = "/path/to/gpt4o_evaluation.xlsx"
+
+[models."GPT-5"]
+run = "/path/to/runs/<run id>/gpt-5-2025-08-07"
+evaluation = "/path/to/gpt5_evaluation.xlsx"
+
+[models."Llama 4 Scout"]
+run = "/path/to/runs/<run id>/llama-4-scout"
+evaluation = "/path/to/llama4_scout_evaluation.xlsx"

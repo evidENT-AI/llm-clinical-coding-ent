@@ -1,0 +1,26 @@
+{
+  "episode_id": "SYN000001_20240115",
+  "synthetic": true,
+  "note": "Synthetic test episode. Not a real patient.",
+  "n_notes": 3,
+  "notes": [
+    {
+      "note_date": "2024-01-14",
+      "note_class": "Note",
+      "is_anchor": false,
+      "text": "Pre-assessment clinic. This 63-year-old woman is listed for a right functional endoscopic sinus surgery for chronic rhinosinusitis with nasal polyps, refractory to medical therapy. Background of well-controlled asthma and type 2 diabetes. Regular medications reviewed. Fit for day-case general anaesthesia."
+    },
+    {
+      "note_date": "2024-01-15",
+      "note_class": "Note",
+      "is_anchor": true,
+      "text": "ENT operation note. Diagnosis: chronic rhinosinusitis with bilateral nasal polyps. Procedure: bilateral functional endoscopic sinus surgery (FESS) with polypectomy under general anaesthesia. Findings: extensive polyps in both middle meati; both maxillary ostia enlarged and ethmoid air cells cleared. Estimated blood loss minimal. Nasal packing inserted."
+    },
+    {
+      "note_date": "2024-01-15",
+      "note_class": "Letter",
+      "is_anchor": false,
+      "text": "Discharge summary. Day-case FESS with polypectomy performed without complication. Diabetes remained well controlled peri-operatively. Discharged same day on nasal douching and a course of intranasal steroids. Outpatient review in six weeks."
+    }
+  ]
+}

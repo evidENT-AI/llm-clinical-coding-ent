@@ -1,0 +1,20 @@
+[project]
+name = "llm-clinical-coding-ent"
+version = "1.0.0"
+description = "LLMs, clinicians and clinical coders compared on ICD-10/OPCS-4 coding of inpatient ENT notes."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 99
+extend-exclude = [".staging"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"pipeline/prompts.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

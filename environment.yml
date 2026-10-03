@@ -1,0 +1,22 @@
+name: llm-clinical-coding-ent
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas=2.2
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - openpyxl
+  - pyxlsb
+  - pyarrow
+  - requests
+  - python-dotenv
+  - openai>=1.40,<2
+  - spacy=3.8
+  - click
+  - thefuzz
+  - pytest
+  - pip

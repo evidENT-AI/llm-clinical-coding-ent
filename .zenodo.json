@@ -1,0 +1,15 @@
+{
+  "title": "llm-clinical-coding-ent: code for comparing LLMs, clinicians and clinical coders on inpatient ENT coding",
+  "upload_type": "software",
+  "description": "Pipeline and analysis code accompanying 'Large Language Models Reach Human-Level Agreement in Coding Otolaryngology Clinical Notes'. Includes the prompting pipeline (extraction, SNOMED CT grounding, ICD-10/OPCS-4 mapping and admission scoping), the agreement and hypothesis tests, the clinician evaluation metrics and the power analysis. No patient data are included.",
+  "creators": [
+    {"name": "Farache Trajano, Luiza"},
+    {"name": "D'Souza, Ayman"},
+    {"name": "Dimitrov, Lilia"},
+    {"name": "Health Informatics Collaborative Hearing Health Consortium"},
+    {"name": "Barrett, Liam"},
+    {"name": "Mehta, Nishchay"}
+  ],
+  "license": "Apache-2.0",
+  "keywords": ["clinical coding", "large language models", "ICD-10", "OPCS-4", "SNOMED CT", "inter-rater reliability", "otolaryngology"]
+}
